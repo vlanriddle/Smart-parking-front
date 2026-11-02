@@ -1,7 +1,4 @@
-// Automatically switches between local testing and your live Vercel backend
-const API_BASE = window.location.hostname.includes('localhost') 
-  ? 'http://localhost:3000/api' 
-  : 'https://vercel.app';
+const API_BASE = 'https://vercel.app';
 
 // DOM Elements
 const slotsGrid = document.getElementById('slotsGrid');
